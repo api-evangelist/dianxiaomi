@@ -1,8 +1,13 @@
 aid: dianxiaomi
 name: Dianxiaomi
-description: 'Dianxiaomi is a company surfaced as a portfolio company of softbank-vision-fund and added
-  to the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Dianxiaomi (店小秘) is a free cross-border e-commerce ERP platform operated
+  by Shenzhen Meiyunji Network Technology Co., Ltd., serving more than 1.8 million
+  cross-border sellers worldwide. It unifies product listing and data collection,
+  multi-platform order processing, warehouse and inventory management, procurement,
+  financial and profit analytics, and customer service across 70+ marketplaces including
+  AliExpress, Amazon, Shopee, Lazada, and TikTok Shop, with integrations to 1,700+
+  logistics providers and 130+ overseas warehouses. The platform is user-facing SaaS;
+  no public developer/API open platform is currently published.'
 url: https://raw.githubusercontent.com/api-evangelist/dianxiaomi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +15,52 @@ x-backed-by:
 - softbank-vision-fund
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.dianxiaomi.com/favicon.ico
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Enterprise
+- E-commerce
+- ERP
+- Cross-Border
+- Logistics
+- Order Management
+- Inventory
+- SaaS
 apis: []
+common:
+- type: DomainSecurity
+  url: security/dianxiaomi-domain-security.yml
+- type: Website
+  url: https://www.dianxiaomi.com
+- type: Documentation
+  url: https://help.dianxiaomi.com
+- type: Support
+  url: https://help.dianxiaomi.com
+- type: TermsOfService
+  url: https://www.dianxiaomi.com/AUP.htm
+- type: PrivacyPolicy
+  url: https://www.dianxiaomi.com/privacy.htm
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
